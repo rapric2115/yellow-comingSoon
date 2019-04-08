@@ -1,0 +1,88 @@
+.bgimg {
+    background-image: url(assets/WhatsApp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 95vh;
+}
+
+.logoImg {
+    width: 5rem;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
+.counter {
+    height: 90vh;
+}
+
+.dias {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: snow;
+}
+
+ul {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: snow;
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    padding: 5px;
+}
+.parag {
+    color: snow;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.2rem !important;
+}
+
+.content {
+    border: 3px solid #feb43b;
+    height: 60vh;
+    width: 28vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content p {
+    color: snow;
+    padding: 1rem 2rem;
+    font-size: .8rem;
+}
+
+.img img {
+    width: 60%;
+    margin-top: 3rem;
+}
+.btn-yellow {
+    margin: auto;
+    color: snow;
+    font-weight: bold;
+    background-color: #feb43b;
+}
+.btn-yellow:hover {
+    background-color: transparent;
+    border: 1px solid #feb43b;
+    color: #feb43b;
+}
+
+@media (min-width: 560px) {
+    .img img {
+        margin-top: 2rem;
+    }
+    .parag {
+        font-size: .8rem
+    }
+    .content p {
+        padding: .2rem 1.2rem;
+    }
+}
