@@ -1,88 +1,230 @@
-.bgimg {
-    background-image: url(assets/WhatsApp.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 95vh;
+:root {
+    --yellow-color: #feb43b;
 }
 
-.logoImg {
-    width: 5rem;
-    position: absolute;
-    top: 4%;
-    left: 3%;
-}
-.counter {
-    height: 90vh;
-}
 
-.dias {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: snow;
-}
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 574.98px) { 
+    .logo-line {
+        width: 6rem;
+        padding-top: 25%;
+    }
+    .bgimg {
+        background-image: url(assets/WhatsApp.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 123vh;
+    }
+    
+    .logoImg {
+        width: 5rem;
+        position: absolute;
+        top: 4%;
+        left: 3%;
+    }
+    .counter {
+        height: 90vh;
+    }
+    .social {
+        width: 2.5rem;
+        margin-left: 1.5rem
+    }
+    
+    .dias {
+        position: absolute;
+        top: 36%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+        color: snow;
+        font-size: 5rem !important; 
+    }
+    .text-dias {
+        left: 66%;
+        top: 30%;
+        position: absolute;
+        font-weight: bold;
+        color: snow;
+    }
+    .text {
+        font-size: 1rem !important;
+    }
 
-ul {
-    position: relative;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: snow;
-    list-style: none;
-    display: flex;
-}
-
-ul li {
-    padding: 5px;
-}
-.parag {
-    color: snow;
-    padding: 1rem 2rem;
-    font-weight: bold;
-    font-size: 1.2rem !important;
-}
-
-.content {
-    border: 3px solid #feb43b;
-    height: 60vh;
-    width: 28vw;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.content p {
-    color: snow;
-    padding: 1rem 2rem;
-    font-size: .8rem;
-}
-
-.img img {
-    width: 60%;
-    margin-top: 3rem;
-}
-.btn-yellow {
-    margin: auto;
-    color: snow;
-    font-weight: bold;
-    background-color: #feb43b;
-}
-.btn-yellow:hover {
-    background-color: transparent;
-    border: 1px solid #feb43b;
-    color: #feb43b;
-}
-
-@media (min-width: 560px) {
-    .img img {
-        margin-top: 2rem;
+    .hrs
+    .min 
+    .seg {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    ul {
+        position: relative;
+        top: 9%;
+        left: 44%;
+        transform: translate(-50%, -50%);
+        color: snow;
+        list-style: none;
+        display: flex;
+    }    
+    ul li {
+        padding: 5px;
     }
     .parag {
-        font-size: .8rem
+        color: snow;
+        padding: 0rem 2rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-top: 2% !important;
+    }
+    
+    .content {
+        border: 3px solid var(--yellow-color);
+        height: auto;
+        width: 76vw;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .content p {
-        padding: .2rem 1.2rem;
+        color: snow;
+        padding: 0 2rem;
+        font-size: .8rem;
     }
-}
+    
+    .img img {
+        width: 60%;
+        margin-top: 2rem;
+    }
+    .btn-yellow {
+        margin: auto;
+        color: snow;
+        font-weight: bold;
+        background-color: var(--yellow-color);
+    }
+    .btn-yellow:hover {
+        background-color: transparent;
+        border: 1px solid var(--yellow-color);
+        color: var(--yellow-color);
+    }
+    .dias {
+        font-size: 5rem;
+    }   
+    .copy {
+        color: snow;
+        display: flex;
+        align-content: flex-end;
+        font-size: .7rem;
+        top: 23% !important;
+    }
+    .copy span {
+        padding: 0 .25rem;
+        color: var(--yellow-color);
+        font-weight: bold;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 575.98px) and (max-width: 767.98px) { 
+    ul {
+        left: 49% !important;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .bgimg {
+        background-image: url(assets/WhatsApp.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .logoImg {
+        width: 5rem;
+        position: absolute;
+        top: 4%;
+        left: 3%;
+    }
+    .counter {
+        height: 90vh;
+    }
+    
+    .dias {
+        position: absolute;
+        top: 37%;
+        left: 61%;
+        transform: translate(-50%, -50%);
+        color: snow;
+        font-size: 10rem !important; 
+    }
+    .text-dias {
+        left: 79%;
+        top: 33%;
+    }
+    
+    ul {
+        position: relative;
+        top: 5%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        color: snow;
+        list-style: none;
+        display: flex;
+    }
+    
+    ul li {
+        padding: 5px;
+    }
+    .parag {
+        color: snow;
+        padding: 1rem 2rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+    .content {
+        border: 3px solid var(--yellow-color);
+        height: 60vh;
+        width: 28vw;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .content p {
+        color: snow;
+        padding: 1rem 2rem;
+        font-size: .8rem;
+    }
+    
+    .img img {
+        width: 60%;
+        margin-top: 3rem;
+    }
+    .btn-yellow {
+        margin: auto;
+        color: snow;
+        font-weight: bold;
+        background-color: var(--yellow-color);
+    }
+    .btn-yellow:hover {
+        background-color: transparent;
+        border: 1px solid var(--yellow-color);
+        color: var(--yellow-color);
+    }
+    .dias {
+        font-size: 5rem;
+    }   
+ }
