@@ -1,0 +1,310 @@
+.bgimg {
+    background-image: url(assets/WhatsApp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.logoImg {
+    width: 5rem;
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
+.counter {
+    height: 90vh;
+}
+.dias {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: snow;
+}
+ul {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: snow;
+    list-style: none;
+    display: flex;
+}
+ul li {
+    padding: 5px;
+}
+.parag {
+    color: snow;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.content {
+    border: 3px solid #feb43b;
+    height: 60vh;
+    width: 28vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content p {
+    color: snow;
+    padding: 1rem 2rem;
+    font-size: .8rem;
+}
+.img img {
+    width: 60%;
+    margin-top: 3rem;
+}
+.btn-yellow {
+    margin: auto;
+    color: snow;
+    font-weight: bold;
+    background-color: #feb43b;
+}
+.btn-yellow:hover {
+    background-color: transparent;
+    border: 1px solid #feb43b;
+    color: #feb43b;
+}
+.dias {
+    font-size: 5rem;
+}
+@media (max-width: 399px) {
+    .img img {
+        margin-top: 10%;
+    }
+    .parag {
+        font-size: .8rem
+    }
+    .content {
+        width: 74vw;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .content p {
+        padding: .2rem 1.2rem;
+        font-size: .7rem;
+    }
+    .btn-yellow {
+        font-size: .8rem;
+    }
+    .dias {
+        top: 40%;
+        left: 49%;
+        font-size: 4.5rem;
+    }
+    .logo-line {
+        width: 6rem;
+        position: relative;
+        top: 50%;
+        left: 30%;
+        padding-top: 25%;
+    }
+    .text-dias {
+        color: snow;
+        font-weight: bold;
+        position: absolute;
+        left: 67%;
+        top: 38%;
+        transform: translate(-50%, -50%);
+    }
+    .parag {
+        margin-top: 10%;
+    }
+    ul {
+        top: 10%;
+        left: 45% !important;
+    }
+    .hrs {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .min {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .seg {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .text {
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    .bgimg {
+        height: 130vh;
+    }
+    .socialMedia {
+        left: 55% !important;
+        top: 2% !important;
+    }
+    .social {
+        width: 2rem;
+        /* padding-right: .5rem; */
+        margin-right: 1.5rem;
+    }
+    .copy {
+        color: snow;
+        display: flex;
+        align-content: flex-end;
+        font-size: .7rem;
+        position: relative;
+        top: 27%;
+    }
+    .copy span {
+        padding: 0 .25rem;
+        color: #feb43b;
+        font-weight: bold;
+    }
+}
+@media (min-width: 400px) {
+    .img img {
+        margin-top: 2rem;
+    }
+    .parag {
+        font-size: .8rem
+    }
+    .content {
+        width: 74vw;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .content p {
+        padding: .2rem 1.2rem;
+        font-size: .85rem;
+    }
+    .btn-yellow {
+        font-size: 1.2rem;
+    }
+    .dias {
+        top: 44%;
+        left: 50%;
+        font-size: 4.5rem;
+    }
+    .logo-line {
+        width: 6rem;
+        position: relative;
+        top: 50%;
+        left: 30%;
+        padding-top: 25%;
+    }
+    .text-dias {
+        color: snow;
+        font-weight: bold;
+        position: absolute;
+        left: 65%;
+        top: 41%;
+        transform: translate(-50%, -50%);
+    }
+    ul {
+        top: 10%;
+    }
+    .hrs {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .min {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .seg {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .text {
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    .bgimg {
+        height: 113vh;
+    }
+    .socialMedia {
+        left: 50% !important;
+        top: 2% !important;
+    }
+    .social {
+        width: 4rem;
+        padding-right: .5rem;
+        margin-right: 2.5rem;
+    }
+    .copy {
+        color: snow;
+        display: flex;
+        align-content: flex-end;
+        font-size: .7rem;
+        position: relative;
+        top: 15%;
+    }
+    .copy span {
+        padding: 0 .25rem;
+        color: #feb43b;
+        font-weight: bold;
+    }
+}
+@media (min-width: 992px) {
+    .content {
+        width: 25vw;
+    }
+    .logo-line {
+        width: 14rem;
+        left: 40%;
+    }
+    .dias {
+        top: 40%;
+        left: 57%;
+        font-size: 8.5rem;
+    }
+    ul {
+        left: 73%;
+        top: 4%;
+    }
+    .parag {
+        font-size: 1.2rem !important;
+    }
+    .text-dias {
+        left: 69%;
+        top: 36%;
+        font-size: 2rem;
+    }
+    .text {
+        font-weight: bold;
+        font-size: .8rem;
+        left: -49%;
+        position: relative;
+        top: 25%;
+    }
+    .hrs {
+        font-weight: 400;
+        font-size: 5rem;
+    }
+    .min {
+        font-weight: 400;
+        font-size: 5rem;
+    }
+    .seg {
+        font-weight: 400;
+        font-size: 5rem;
+    }
+    .socialMedia {
+        left: 74% !important;
+    }
+    .social {
+        width: 4rem;
+        padding-right: .5rem;
+        margin-right: 2.5rem;
+    }
+    .copy {
+        color: snow;
+        display: flex;
+        align-content: flex-end;
+        font-size: .7rem;
+        top: 0 !important;
+    }
+    .copy span {
+        padding: 0 .25rem;
+        color: #feb43b;
+        font-weight: bold;
+    }
+}
