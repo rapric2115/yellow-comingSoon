@@ -1,77 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yellow | Coming soon</title>
 
-    <!-- Bootstrap css link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    </head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"/>
+</head>
 <body>
-    <div class="container-fluid bgimg">
-        <img src="assets/Logo_Yellow_whiteText.png" alt="yellow logo" class="img-fluid logoImg">
-        <div class="row counter">
-            <div class="col-md-6">
-                <div class="container">
-                    <div class="img-days text-center">
-                            <img src="assets/logo-yellow-line.png" alt="" class="img-fluid logo-line">
-                    </div>
-                    <span class="dias" id="dias"></span>
-                    <span class="text-dias">DIAS</span>
-                </div>
-                
-                <ul class="text-center">
-                    <li><span class="hrs" id="horas"></span> <span class="text">HORAS</span></li>
-                    <li><span class="min" id="minutos"></span> <span class="text">MINUTOS</span></li>
-                    <li><span class="seg" id="segundos"></span> <span class="text">SEGUNDOS</span>  </li>
-                </ul>
-                <ul class="socialMedia">
-                    <li class="social">
-                        <img src="assets/facebook.png" alt="" class="img-fluid">
-                    </li>
-                    <li class="social">
-                        <img src="assets/instagram.png" alt="" class="img-fluid">
-                    </li>
-                    <li class="social">
-                        <img src="assets/linkedin%20yellow.png" alt="" class="img-fluid">
-                    </li>
-                    <li class="social">
-                        <img src="assets/youtube%20yellow.png" alt="" class="img-fluid">
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="content">
-                    <div class="img text-center">
-                         <img src="assets/Logo_Yellow_whiteText.png" alt="logo yellow" class="img-fluid">
-                    </div>
-                    <p class="parag">
-                        PERDONA, ESTAMOS HACIENDO ALGUNOS TRABAJOS EN NUESTRO WEBSITE.
-                    </p>
-                    <p>
-                        GRACIAS POR SER PACIENTE, NOSOTROS ESTAMOS REALIZANDO ALGUNOS CAMBIOS EN LA 
-                        PAGINA Y ESTAREMOS PRONTO DE VUELTA.
-                    </p>
-                    <div class="text-center">
-                            <a href="https://yellow.do" class="btn btn-yellow btn-lg" target="_blanck">VISITE WEBSITE ANTERIOR</a>
-                    </div>
-                </div>
-            </div>
+<div class="container-fluid">
+  <div class="navbar">
+    <a href="" class="navbar-brand">
+      <img src="assets/Logo_Yellow_whiteText.png" alt="" class="img-fluid logo">
+    </a>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-center">
+          <img src="assets/logo-yellow-line.png"
+            alt="logo yellow ingenieros y arquitectos"
+            class="img-fluid logo-line">
+            <p class="days-counter" id="dias"></p>
+            <p class="days">DIAS</p>
         </div>
-        <p class="copy justify-content-end">&copy; Copyright <span> YELLOW-IA </span> 2019</p>
+        <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">
+                  <span id="horas"></span>
+                </th>
+                <th scope="col">
+                  <span id="minutos"></span>
+                </th>
+                <th scope="col">
+                  <span id="segundos"></span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="time">
+                <th>HORAS</th>
+                <th>MINUTOS</th>
+                <th>SEGUNDOS</th>
+              </tr>
+            </tbody>
+          </table>
+          <ul class="socialMedia pb-5">
+              <li class="social">
+                  <img src="assets/facebook.png" alt="" class="img-fluid">
+              </li>
+              <li class="social">
+                  <img src="assets/instagram.png" alt="" class="img-fluid">
+              </li>
+              <li class="social">
+                  <img src="assets/linkedin%20yellow.png" alt="" class="img-fluid">
+              </li>
+              <li class="social">
+                  <img src="assets/youtube%20yellow.png" alt="" class="img-fluid">
+              </li>
+          </ul>
+      </div>
+      <div class="col-md-6">
+          <div class="content">
+              <div class="text-center">
+                  <img src="assets/Logo_Yellow_whiteText.png" alt="logo yellow" class="img-fluid logo-b pb-2">
+              </div>
+
+              <p class="parag">
+                PERDONA, ESTAMOS HACIENDO ALGUNOS TRABAJOS EN NUESTRO WEBSITE.
+            </p>
+            <p>
+                GRACIAS POR SER PACIENTE, NOSOTROS ESTAMOS REALIZANDO ALGUNOS CAMBIOS EN LA
+                PAGINA Y ESTAREMOS PRONTO DE VUELTA.
+            </p>
+            <div class="text-center pb-5">
+                    <a href="https://yellow.do" class="btn btn-yellow btn-lg" target="_blanck">VISITE WEBSITE ANTERIOR</a>
+            </div>
+            </div>
+      </div>
     </div>
+  </div>
+  <p class="copy justify-content-end">&copy; Copyright <span> YELLOW-IA </span> 2019</p>
+</div>
 
 
-<!-- Bootstrap js -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  <script src="yellow.js"></script>
 </body>
