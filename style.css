@@ -49,13 +49,13 @@ body {
   list-style: none;
   display: flex;
   padding-top: 5%;
-  padding-left: 17%;
+  padding-left: 13%;
 }
 
 .social {
   padding-right: 2rem;
   width: 6rem;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .col-md-6 {
   width: 100%;
@@ -96,6 +96,8 @@ body {
   align-content: flex-end;
   font-size: .7rem;
   top: 23% !important;
+  margin-top: calc(100% - 95%);
+  padding-right: 5%;
 }
 .copy span {
   padding: 0 .25rem;
@@ -114,11 +116,8 @@ body {
     font-size: .8rem;
     padding-right: .5rem !important;
   }
-  .socialMedia {
-    padding-left: 10%;
-  }
   .btn-yellow {
-    font-size: 1rem !important;
+    font-size: .9rem !important;
   }
   .content {
     width: 76vw;
